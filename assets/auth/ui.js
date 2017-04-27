@@ -3,11 +3,11 @@
 const store = require('../store')
 
 const signUpSuccess = (data) => {
-  console.log('signup success')
+  console.log(data)
 }
 
 const signUpFailure = (error) => {
-  console.error('signUp failure ran.  error is :', error)
+  console.error(error)
 }
 
 const signInSuccess = (data) => {
